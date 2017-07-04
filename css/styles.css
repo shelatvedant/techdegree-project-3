@@ -53,10 +53,10 @@ hr{
 }
 
 .title{
-  color:#333333;
+  color:#262626;
   text-align: left;
   font-size: 1.4em;
-  font-weight: bold;
+  font-weight:bold;
   margin-bottom: 15px;
 }
 
@@ -142,6 +142,13 @@ footer{
   form{
     max-width: 650px;
     margin:0 auto;
+  }
+
+  body{
+    background-image: url(../form.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
   }
 
   .main_header{
