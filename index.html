@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang ="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Online Registration Form</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale =1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather" >
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <header class="main_header">
+      <h1 class="main">The code review</h1>
+      <h2>Signup for our newsletter</h2>
+      <p>Get the latest code on how your code is doing right in your inbox</p>
+    </header>
+      <hr>
+
+    <form>
+      <fieldset>
+      <legend class="title">Contact Information</legend>
+
+      <label class="media" for="name">Full Name</label>
+      <input required type="text" id="name" name="user_name" placeholder="Required">
+
+      <label class="media" for="mail">Email Address</label>
+      <input required type="email" id="mail" name="user_mail" placeholder="Required">
+
+      <label class="media" for="phone">Phone Number</label>
+      <input required type="tel" id="phone" name="user_phone" placeholder="Enter your phone number">
+
+      <label class="media" for="address">Street Address</label>
+      <input required type="text" id="address" name="user_address" placeholder="Enter your address">
+
+      <label class="media" for="city">City</label>
+      <input required type="text" id="city" name="user_city" placeholder="Which city do you live in">
+
+      <label class="media">State</label>
+      <select id="state" name="user_state" >
+        <optgroup label="State">
+        <option value="california">California</option>
+        <option value="texas">Texas</option>
+        <option value="arizona">Arizona</option>
+        <option value="colorado">Colorado</option>
+        <option value="ohio">Ohio</option>
+        <option value="utah">Utah</option>
+        <option value="alaska">Alaska</option>
+        <option value="florida">Florida</option>
+        <option value="hawai">Hawai</option>
+        <option value="washington">Washington</option>
+      </optgroup>
+      </select><br>
+
+      <label class="media" for="zip">Zip Code</label>
+      <input required type="text" id="zip" name="user_zip" class="zip" placeholder="5 digit zip">
+
+    </fieldset>
+      <hr>
+    <fieldset>
+      <legend class="title">Newsletter</legend>
+      <label>Select the newsletters you would like to receive</label><br><br>
+
+      <input type="checkbox" id="html_news" value="html_news" name="user_html_news">
+      <label for="html_news">HTML News</label><br>
+      <input type="checkbox" id="css_news" value="css_news" name="user_css_news">
+      <label for="css_news">CSS News</label><br>
+      <input type="checkbox" id="javascript_news" value="javascript_news" name="user_javascript_news">
+      <label for="javascript_news">Javascript News</label>
+      <br><br>
+
+      <label>Newsletter format</label><br><br>
+      <input type="radio" id="html" value="html_text" name="user_newsletter"><label for="html">HTML </label><br>
+      <input type="radio" id="plain" value="plain_text" name="user_newsletter"><label for="plain">Plain text </label><br>
+      <br>
+
+      <label for="textarea">Other topics you'd like to hear about</label>
+      <textarea id="textarea" name="user_textarea" placeholder="Write here!"></textarea><br>
+
+      <button class="btn" type="submit">SignUp</button>
+    </fieldset>
+    </form>
+
+    <footer>
+      <p>&copy; Copyright The Code Review</p>
+    </footer>
+  </body>
+</html>
