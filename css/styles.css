@@ -60,14 +60,6 @@ hr{
   margin-bottom: 15px;
 }
 
-input[type="email"]:invalid {
-  background: hsla(0, 90%, 70%, 1);
-}
-
-input[type="email"]:valid {
-  background: hsla(100, 90%, 70%, 1);
-}
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
