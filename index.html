@@ -36,7 +36,7 @@
       <label class="media" for="city">City</label>
       <input required type="text" id="city" name="user_city" placeholder="Which city do you live in">
 
-      <label class="media">State</label>
+      <label class="media" for="state">State</label>
       <select id="state" name="user_state" >
         <optgroup label="State">
         <option value="california">California</option>
@@ -59,7 +59,7 @@
       <hr>
     <fieldset>
       <legend class="title">Newsletter</legend>
-      <label>Select the newsletters you would like to receive</label><br><br>
+      <h3>Select the newsletters you would like to receive</h3>
 
       <input type="checkbox" id="html_news" value="html_news" name="user_html_news">
       <label for="html_news">HTML News</label><br>
@@ -69,7 +69,7 @@
       <label for="javascript_news">Javascript News</label>
       <br><br>
 
-      <label>Newsletter format</label><br><br>
+      <h3>Newsletter format</h3>
       <input type="radio" id="html" value="html_text" name="user_newsletter"><label for="html">HTML </label><br>
       <input type="radio" id="plain" value="plain_text" name="user_newsletter"><label for="plain">Plain text </label><br>
       <br>
@@ -77,7 +77,7 @@
       <label for="textarea">Other topics you'd like to hear about</label>
       <textarea id="textarea" name="user_textarea" placeholder="Write here!"></textarea><br>
 
-      <button class="btn" type="submit">SignUp</button>
+      <button class="btn" type="submit" value="signup">SignUp</button>
     </fieldset>
     </form>
 
